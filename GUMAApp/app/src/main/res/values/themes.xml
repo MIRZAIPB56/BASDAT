@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GUMAApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8ED8C7</item>
+        <item name="colorPrimaryVariant">#8ED8C7</item>
+        <item name="colorOnPrimary">#8ED8C7</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8ED8C7</item>
+        <item name="colorSecondaryVariant">#8ED8C7</item>
+        <item name="colorOnSecondary">#8ED8C7</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="myEditTextStyle">
+        <item name="colorControlNormal">#FFFFFFFF</item>
+        <item name="colorControlActivated">#FFFFFFFF</item>
+        <item name="colorControlHighlight">#FFFFFFFF</item>
+        <item name="colorAccent">#FFFFFFFF</item>
+        <item name="android:textColorHint">#FFFFFFFF</item>
+    </style>
+</resources>

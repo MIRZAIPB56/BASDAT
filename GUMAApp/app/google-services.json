@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870772734187",
+    "project_id": "gumatika-mobile",
+    "storage_bucket": "gumatika-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870772734187:android:caeb34f11368dbbaa866ae",
+        "android_client_info": {
+          "package_name": "com.example.gumaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870772734187-s02uu6rj0fqajodqpmp0uhd1ccm3hq9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAKtxQ9sxtZhEAGgArC5sib8jGnSwVWVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870772734187-s02uu6rj0fqajodqpmp0uhd1ccm3hq9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
