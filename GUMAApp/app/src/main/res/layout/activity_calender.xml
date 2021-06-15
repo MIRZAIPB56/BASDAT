@@ -167,7 +167,17 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/calendarRecyclerView"
         android:layout_width="match_parent"
-        android:fontFamily="@font/cabin_bold"
-        android:layout_height="match_parent"/>
+        android:layout_height="360dp"
+        android:fontFamily="@font/cabin_bold">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="123dp"
+        android:layout_height="133dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/note_button" />
 
 </LinearLayout>
