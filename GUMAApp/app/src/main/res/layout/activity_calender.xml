@@ -178,6 +178,7 @@
         android:layout_height="133dp"
         android:layout_marginLeft="280dp"
         android:layout_marginTop="120dp"
+        android:background="#79CBB8"
         app:srcCompat="@drawable/note_button" />
 
 </LinearLayout>
