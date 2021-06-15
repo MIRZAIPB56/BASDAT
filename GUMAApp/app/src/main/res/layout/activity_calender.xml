@@ -172,7 +172,7 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView7"
         android:layout_width="123dp"
         android:layout_height="133dp"

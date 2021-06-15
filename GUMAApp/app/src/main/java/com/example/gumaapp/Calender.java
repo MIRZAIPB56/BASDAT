@@ -24,6 +24,7 @@ public class Calender extends AppCompatActivity implements CalendarAdapter.OnIte
     private TextView monthYearText;
     private RecyclerView calendarRecyclerView;
     private ImageButton imageButton41;
+    private ImageButton imageView7;
 
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -38,6 +39,15 @@ public class Calender extends AppCompatActivity implements CalendarAdapter.OnIte
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Calender.this,Activity3.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        imageView7 = (ImageButton) findViewById(R.id.imageView7);
+        imageView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Calender.this,ActivityNote.class);
                 startActivity(intent);
                 finish();
             }
