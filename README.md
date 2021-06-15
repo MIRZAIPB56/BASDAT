@@ -76,7 +76,11 @@ Solusi yang kami berikan dengan membuat aplikasi berbasis android yang dikenal d
 ## 3 Skema Basis Data
 
 **3.1 Entity-Relational Diagram**<br>
-</br>
+<img src="https://user-images.githubusercontent.com/78713830/122086470-f25d8f00-ce2d-11eb-8bef-7ee8e5adcced.jpg" />
+**3.2 Diagram Skematik**<br>
+<img src="https://user-images.githubusercontent.com/78713830/122086661-20db6a00-ce2e-11eb-8362-16db6565bd8a.jpg" />
+
+
 
 ***
 ## 4  Implementasi
