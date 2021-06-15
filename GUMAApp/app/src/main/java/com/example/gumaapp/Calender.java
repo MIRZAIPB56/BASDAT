@@ -47,7 +47,7 @@ public class Calender extends AppCompatActivity implements CalendarAdapter.OnIte
         imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Calender.this,ActivityNote.class);
+                Intent intent = new Intent(Calender.this, ActivityNotes.class);
                 startActivity(intent);
                 finish();
             }

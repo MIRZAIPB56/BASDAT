@@ -9,7 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
-public class ActivityNote extends AppCompatActivity
+public class ActivityNotes extends AppCompatActivity
 {
     private ListView noteListView;
     private ImageButton imageButton41;
@@ -23,7 +23,7 @@ public class ActivityNote extends AppCompatActivity
         imageButton41.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ActivityNote.this,Calender.class);
+                Intent intent = new Intent(ActivityNotes.this,Calender.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.gumaapp">
 
     <application
@@ -9,7 +10,8 @@
         android:roundIcon="@mipmap/guma_mobile_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GUMAApp">
-        <activity android:name=".new_bpg"></activity>
+        <activity android:name=".NoteDetailActivity" />
+        <activity android:name=".ActivityNotes"/>
         <activity android:name=".signup" />
         <activity android:name=".gumashop" />
         <activity android:name=".Calender" />
